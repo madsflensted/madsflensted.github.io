@@ -16329,7 +16329,6 @@ var _xarvh$elm_slides$Slides$app = F2(
 
 var _user$project$Presentation$goodbye = _xarvh$elm_slides$Slides$md('\n    # Thank you\n    * for coming: All of you\n    * for speaking: Matthieu, Michal, Mads\n    * for hosting: ThoughtWorks SG\n\n    Want more?\n    Oslo Elm Day [videos](https://www.youtube.com/playlist?list=PLcAzxXzXQlPZsNcYycHittqeF3UG4dGli) are out!\n\n    Elm Singapore Planning: https://github.com/elm-singapore\n    ');
 var _user$project$Presentation$closing = _xarvh$elm_slides$Slides$md('\n\n    > Learn it. Then forget it. But learn it first.\n\n    *Miles Davis on learning basic music skills*\n    ');
-var _user$project$Presentation$syntax = _xarvh$elm_slides$Slides$md('\n    1st letter Uppercase => Type, Type constructor, Module\n    1st letter lowercase => name (function, expression)\n\n    Parenthesises => grouping expressions, tuples, infix, module exposing\n    Comma => seperateor in List, Tuple, Record\n    Brackets => lists\n    Braces => records, multiline comments\n    Dot/Point => record accessor, Module member accessor\n    Double Dot => module exposing\n    Colon => of type\n    Semicolon => not used\n    Double qoutes => String\n    Pipe/Bar | => Union types, Record updates\n    Equals = => Naming, record update\n    Combinations:\n    -> => anonymous functions, case branches, type defs\n    |> <| >> <<\n    Looking up definitions\n    ');
 var _user$project$Presentation$tea7 = _xarvh$elm_slides$Slides$mdFragments(
 	{
 		ctor: '::',
@@ -16380,7 +16379,7 @@ var _user$project$Presentation$tea3 = _xarvh$elm_slides$Slides$mdFragments(
 		_0: 'The basic principles:',
 		_1: {
 			ctor: '::',
-			_0: '- centralized state',
+			_0: '- single source of truth',
 			_1: {
 				ctor: '::',
 				_0: '- unidirectional data flow',
@@ -16401,7 +16400,7 @@ var _user$project$Presentation$tea2 = _xarvh$elm_slides$Slides$mdFragments(
 			_0: '**T**he **E**lm **A**rchitecture',
 			_1: {
 				ctor: '::',
-				_0: 'The interaction between the Elm Runtime and you code',
+				_0: 'The interaction between the Elm Runtime and your code',
 				_1: {
 					ctor: '::',
 					_0: 'the edges of the Jigsaw Puzzle',
@@ -16426,7 +16425,7 @@ var _user$project$Presentation$uniontype4 = _xarvh$elm_slides$Slides$mdFragments
 			_0: '\n          ```elm\n          type Maybe a = Nothing | Just a\n          type Result error result = Ok result | Err error\n\n          > Just \"Hello\"\n          Just \"Hello\" : Maybe String\n          ```\n        ',
 			_1: {
 				ctor: '::',
-				_0: 'Making Impossible States Impossible *by Richard Feldmann* [link](https://www.youtube.com/watch?v=IcgmSRJHu_8)',
+				_0: 'Making Impossible States Impossible *by Richard Feldman* [link](https://www.youtube.com/watch?v=IcgmSRJHu_8)',
 				_1: {ctor: '[]'}
 			}
 		}
@@ -16508,7 +16507,7 @@ var _user$project$Presentation$functions4 = _xarvh$elm_slides$Slides$mdFragments
 					_0: 'Composing functions:',
 					_1: {
 						ctor: '::',
-						_0: '\n          ```elm\n          > len greeting = greeting >> String.length\n          <function> : (a -> String) -> a -> Int\n          ```\n        ',
+						_0: '\n          ```elm\n          > type alias Person = { name : String, age: Int }\n          > nameLength = .name >> String.length\n          <function> : { a | name : String } -> Int\n          ```\n        ',
 						_1: {
 							ctor: '::',
 							_0: 'Operators are also functions:',
@@ -16682,7 +16681,7 @@ var _user$project$Presentation$intro = _xarvh$elm_slides$Slides$mdFragments(
 		}
 	});
 var _user$project$Presentation$title = _xarvh$elm_slides$Slides$md('\n    ## Some Fundamentals of Elm\n\n    ###  Elm Singapore Meetup\n\n    June 15 2017 at ThoughtWorks\n\n    *github/twitter: @madsflensted*\n    ');
-var _user$project$Presentation$welcome = _xarvh$elm_slides$Slides$md('\n    # Welcome\n    to Elm Talks #1\n\n     - Some Fundamentals of Elm *by Mads Flensted-Urech*\n     - Using Tests in Elm *by Matthieu Pizenberg*\n     - PureScript - another JavaScript-hosted strongly typed language like Elm\n        *by Michał J. Gajda from Jewel Paymentech Pte Ltd*\n\n    *Our host: ThoughWorks Singapore*\n    ');
+var _user$project$Presentation$welcome = _xarvh$elm_slides$Slides$md('\n    # Welcome\n    to Elm Talks #1\n\n     - Some Fundamentals of Elm *by Mads Flensted-Urech*\n     - Using Tests in Elm *by Matthieu Pizenberg*\n     - PureScript - another JavaScript-hosted strongly typed language like Elm\n        *by Michał J. Gajda from Jewel Paymentech Pte Ltd*\n\n    *Our host: ThoughtWorks Singapore*\n    ');
 var _user$project$Presentation$elmCode = function (txt) {
 	return A2(
 		_elm_lang$html$Html$pre,
