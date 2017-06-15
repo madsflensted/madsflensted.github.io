@@ -16459,17 +16459,21 @@ var _user$project$Presentation$uniontype3 = _xarvh$elm_slides$Slides$mdFragments
 var _user$project$Presentation$uniontype2 = _xarvh$elm_slides$Slides$mdFragments(
 	{
 		ctor: '::',
-		_0: '\n          ```elm\n          > type Size = Small | Medium | Large\n\n          > type Animal = Fish | Cat String | Dog String Size | NotAnimal\n          ```\n        ',
+		_0: '\n          ```elm\n          > type Animal = Fish | Cat | Dog | NotAnimal\n          ```\n        ',
 		_1: {
 			ctor: '::',
-			_0: '\n          ```elm\n          > animal = Dog \"Idefix\" Small\n          Dog \"Idefix\" Small : Repl.Animal\n          ```\n        ',
+			_0: '\n          ```elm\n          > type Size = Small | Medium | Large\n\n          > type Animal = Fish | Cat String | Dog String Size | NotAnimal\n          ```\n        ',
 			_1: {
 				ctor: '::',
-				_0: '\n          ```elm\n          case animal of\n            Fish ->  ...\n\n            Cat name ->  ...\n\n            Dog name Large -> ...\n\n            Dog name size -> ...\n\n            NotAnimal -> ...\n          ```\n        ',
+				_0: '\n          ```elm\n          > animal = Dog \"Idefix\" Small\n          Dog \"Idefix\" Small : Repl.Animal\n          ```\n        ',
 				_1: {
 					ctor: '::',
-					_0: 'The Compiler will help us to cover all cases',
-					_1: {ctor: '[]'}
+					_0: '\n          ```elm\n          case animal of\n            Fish ->  ...\n\n            Cat name ->  ...\n\n            Dog name Large -> ...\n\n            Dog name size -> ...\n\n            NotAnimal -> ...\n          ```\n        ',
+					_1: {
+						ctor: '::',
+						_0: 'The Compiler will help us to cover all cases',
+						_1: {ctor: '[]'}
+					}
 				}
 			}
 		}
@@ -16610,7 +16614,7 @@ var _user$project$Presentation$types3 = _xarvh$elm_slides$Slides$mdFragments(
 						_0: 'Sometimes you just need a placeholder for a type',
 						_1: {
 							ctor: '::',
-							_0: '\n        ```elm\n        > []\n        [] : List a\n        ```\n        ',
+							_0: '\n        ```elm\n        -- Execute in elm-repl\n        > []\n        [] : List a\n        ```\n        ',
 							_1: {
 								ctor: '::',
 								_0: 'known as *type variables*',
@@ -16654,28 +16658,6 @@ var _user$project$Presentation$types1 = _xarvh$elm_slides$Slides$mdFragments(
 					ctor: '::',
 					_0: 'The important pieces in a jigsaw puzzle',
 					_1: {ctor: '[]'}
-				}
-			}
-		}
-	});
-var _user$project$Presentation$intro = _xarvh$elm_slides$Slides$mdFragments(
-	{
-		ctor: '::',
-		_0: '# What is Elm?',
-		_1: {
-			ctor: '::',
-			_0: ' - Language',
-			_1: {
-				ctor: '::',
-				_0: ' - Compiler',
-				_1: {
-					ctor: '::',
-					_0: ' - Runtime',
-					_1: {
-						ctor: '::',
-						_0: ' - Package Manager',
-						_1: {ctor: '[]'}
-					}
 				}
 			}
 		}
