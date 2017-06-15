@@ -16496,6 +16496,32 @@ var _user$project$Presentation$uniontype1 = _xarvh$elm_slides$Slides$mdFragments
 			}
 		}
 	});
+var _user$project$Presentation$functions5 = _xarvh$elm_slides$Slides$mdFragments(
+	{
+		ctor: '::',
+		_0: 'Type declarations',
+		_1: {
+			ctor: '::',
+			_0: '\n          ```elm\n          repeat : Int -> String -> String\n          repeat count txt = ...\n          ```\n        ',
+			_1: {
+				ctor: '::',
+				_0: '\n          ```elm\n          nameLength : Person -> Int\n          nameLength person = ...\n          ```\n        ',
+				_1: {
+					ctor: '::',
+					_0: 'Helping the compiler help you',
+					_1: {
+						ctor: '::',
+						_0: 'Elm in Production *by Kevin Yank* [link](https://www.youtube.com/watch?v=LZj_1qVURL0&t=2s)',
+						_1: {
+							ctor: '::',
+							_0: 'Developer Happiness on the Front End *by Kevin Yank*  [link](https://www.youtube.com/watch?v=C2npla7DwVk)',
+							_1: {ctor: '[]'}
+						}
+					}
+				}
+			}
+		}
+	});
 var _user$project$Presentation$functions4 = _xarvh$elm_slides$Slides$mdFragments(
 	{
 		ctor: '::',
@@ -16728,47 +16754,51 @@ var _user$project$Presentation$main = A2(
 										_0: _user$project$Presentation$functions4,
 										_1: {
 											ctor: '::',
-											_0: _user$project$Presentation$uniontype1,
+											_0: _user$project$Presentation$functions5,
 											_1: {
 												ctor: '::',
-												_0: _user$project$Presentation$uniontype2,
+												_0: _user$project$Presentation$uniontype1,
 												_1: {
 													ctor: '::',
-													_0: _user$project$Presentation$uniontype3,
+													_0: _user$project$Presentation$uniontype2,
 													_1: {
 														ctor: '::',
-														_0: _user$project$Presentation$uniontype4,
+														_0: _user$project$Presentation$uniontype3,
 														_1: {
 															ctor: '::',
-															_0: _user$project$Presentation$patternmatching1,
+															_0: _user$project$Presentation$uniontype4,
 															_1: {
 																ctor: '::',
-																_0: _user$project$Presentation$tea1,
+																_0: _user$project$Presentation$patternmatching1,
 																_1: {
 																	ctor: '::',
-																	_0: _user$project$Presentation$tea2,
+																	_0: _user$project$Presentation$tea1,
 																	_1: {
 																		ctor: '::',
-																		_0: _user$project$Presentation$tea3,
+																		_0: _user$project$Presentation$tea2,
 																		_1: {
 																			ctor: '::',
-																			_0: _user$project$Presentation$tea4,
+																			_0: _user$project$Presentation$tea3,
 																			_1: {
 																				ctor: '::',
-																				_0: _user$project$Presentation$tea5,
+																				_0: _user$project$Presentation$tea4,
 																				_1: {
 																					ctor: '::',
-																					_0: _user$project$Presentation$tea6,
+																					_0: _user$project$Presentation$tea5,
 																					_1: {
 																						ctor: '::',
-																						_0: _user$project$Presentation$tea7,
+																						_0: _user$project$Presentation$tea6,
 																						_1: {
 																							ctor: '::',
-																							_0: _user$project$Presentation$closing,
+																							_0: _user$project$Presentation$tea7,
 																							_1: {
 																								ctor: '::',
-																								_0: _user$project$Presentation$goodbye,
-																								_1: {ctor: '[]'}
+																								_0: _user$project$Presentation$closing,
+																								_1: {
+																									ctor: '::',
+																									_0: _user$project$Presentation$goodbye,
+																									_1: {ctor: '[]'}
+																								}
 																							}
 																						}
 																					}
